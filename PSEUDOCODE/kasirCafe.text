@@ -1,0 +1,21 @@
+Algoritma: kasir_Cafe
+
+Deklarasi:
+
+pilihan	: int
+jumlahUang, kembalian, totalBelanja=0	: double
+
+Deskripsi:
+
+1.	Looping menu, akan berhenti jika memilih menu no 4
+2.	print " Menu 1, 2, 3, 4(selesai)”
+3.	read pilihan
+4.	print "total Belanja anda” + totalBelanja
+5.	Kembali ke no. 1, jika pilih no 4 akan lanjut ke transaksi
+6.	print "Masukkan jumlah uang anda berikan”
+7.	read jumlahUang
+8.	jika jumlahUang >= total belanja
+9.	kembalian = jumlahUang – totalBelanja
+print “ terimakasih, kembalian anda ”+kembalian
+10.	jika jumlah uang < total belanja
+ print “Maaf, uang yang diberikan tidak cukup, Transaksi di batalkan”

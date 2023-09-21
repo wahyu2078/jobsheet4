@@ -1,0 +1,18 @@
+Algoritma: Gaji29
+{dibaca jumlah hari masuk dan jumlah hari tidak masuk, hitunglah totalgaji }
+
+Deklarasi:
+jmlMasuk, jmlTdkMasuk, gaji, potGaji, totGaji : int
+# gaji=40000, potGaji=25000 : int
+
+Deskripsi:
+1. print "Masukkan Gaji"
+2. read gaji
+3. print "Masukkan potGaji"
+4. read potGaji
+5. print "Masukkan Jumlah Hari Masuk Anda "
+6. read jmlMasuk
+7. print "Masukkan Jumlah Hari Tidak Masuk Anda "
+8. read jmlTdkMasuk
+9. totGaji=(jmlMasuk*gaji)-(jmlTdkMasuk*potGaji)
+10. print totGaji
